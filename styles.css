@@ -243,44 +243,72 @@ font-weight: 600;
   font-size: 1em;
   padding:0 12px 0 0;
 }
-@media (max-width:300px){
-header{
-padding: 122px 20px;
-
-}
-.navigation{
-padding-left:8px;
-}
-.title{
-  font-size:1.6em;
-}
-section{
-padding: 70px 20px;
-}
-.main-content h2{
-  font-size: 1em;
-}
-.main-content h3{
-font-size:1.6em;
-}
-.content{
-flex-direction: column;
-align-items: center;
-}
-}
-@media (max-width:641px){
-   body{
-    font-size: 12px; 
-   }
-   .main-content h2{
-  font-size: 0.8em;
-}
-.main-content h3{
-font-size:1.4em;
-}
-}
-@media (max-width:300px){
-   body{
-    font-size: 10px; 
-   }
+@media (max-width: 1023px) {
+  header {
+    padding: 132px 20px;
   }
+  .navigation {
+    padding-left: 10px;
+  }
+  .title {
+    font-size: 1.8em;
+  }
+  section {
+    padding: 80px 20px;
+  }
+  .main-content h2 {
+    font-size: 1em;
+  }
+  .main-content h3 {
+    font-size: 1.6em;
+  }
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* للهواتف الصغيرة مثل iPhone 12 mini و SE */
+@media (max-width: 641px) {
+  body {
+    font-size: 12px;
+  }
+  .main-content h2 {
+    font-size: 0.8em;
+  }
+  .main-content h3 {
+    font-size: 1.4em;
+  }
+}
+
+/* لأجهزة الآيفون الأصغر من 500px */
+@media (max-width: 500px) {
+  header {
+    padding: 20px;
+  }
+  .navigation {
+    padding-left: 9px;
+  }
+  .title {
+    font-size: 1.5em;
+  }
+  section {
+    padding: 50px 20px;
+  }
+  .main-content h2 {
+    font-size: 0.9em;
+  }
+  .main-content h3 {
+    font-size: 1.5em;
+  }
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 300px) {
+  body {
+    font-size: 10px;
+  }
+}
