@@ -243,19 +243,19 @@ font-weight: 600;
   font-size: 1em;
   padding:0 12px 0 0;
 }
-@media (max-width:1023px){
+@media (max-width:300px){
 header{
-padding: 132px 20px;
+padding: 122px 20px;
 
 }
 .navigation{
-padding-left:10px;
+padding-left:8px;
 }
 .title{
-  font-size:1.8em;
+  font-size:1.6em;
 }
 section{
-padding: 80px 20px;
+padding: 70px 20px;
 }
 .main-content h2{
   font-size: 1em;
